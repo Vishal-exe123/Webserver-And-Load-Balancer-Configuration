@@ -1,0 +1,6 @@
+---
+# vars file for lbrole
+package_name:  "haproxy"
+port_no:  80
+service_name:  "haproxy"
+

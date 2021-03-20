@@ -1,0 +1,6 @@
+---
+# handlers file for lbrole
+- name:  Restarting Haproxy Service
+  service:
+          name:  "{{ service_name }}"
+          state:  restarted

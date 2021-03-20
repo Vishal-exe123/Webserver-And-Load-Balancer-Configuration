@@ -1,0 +1,8 @@
+- hosts:  webservers
+  roles:
+          - webrole
+
+
+- hosts:  lbserver
+  roles:
+          - lbrole
